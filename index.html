@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Js/jq</title>
+    <link rel="icon" href="images/favicon.jpg">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+  </head>
+  <body>
+
+    <!-- e1 -->
+    <div class="container">
+      <h1 class="text-danger">click the button to show text</h1>
+      <button type="button" class="btn btn-secondary" onclick="showText()">Show Text</button>
+      <h3 id="s_text"></h3>
+    </div>
+    <hr>
+    <!-- e2 -->
+    <div class="container">
+      <h1>My  JavaScript</h1>
+      <button type="button" class="btn btn-primary" onclick="showTime()">show time</button>
+      <h3 id="s_time"></h3>
+    </div>
+      <hr>
+    <!-- e3 -->
+    <div class="container">
+      <h1>What Can JavaScript Do?</h1>
+      <button type="button" class="btn btn-danger" onclick="java()">Click Me!</button>
+      <h3 id="demo"></h3>
+    </div><hr>
+
+    <!-- e4 -->
+    <div class="container">
+      <h1 class="text-danger">click the button to on/off bulb</h1>
+      <button type="button" class="btn btn-primary" onclick="bulbOn()">bulbOn</button>
+      <button type="button" class="btn btn-primary" onclick="bulbOff()">bulbOff</button>
+      <img id="img" src="images/off.gif" alt="">
+    </div><hr>
+
+    <!-- e5 -->
+    <div class="container">
+      <h1 class="text-danger">size big</h1>
+      <button type="button" class="btn btn-info" onclick="size()">click here</button>
+      <h3 id="s_size">haloom haloom...</h3>
+    </div><hr>
+
+    <!-- e6 -->
+    <div class="container">
+      <h1 class="text-danger">hiding text</h1>
+      <button type="button" class="btn btn-primary" onclick="hide()">click here</button>
+      <h3 id="s_hide">people was independent</h3>
+    </div><hr>
+
+     <!-- e7 -->
+    <div class="container">
+      <h1 class="text-danger">JavaScript can show hidden HTML elements.</h1>
+      <button type="button" class="btn btn-primary" onclick="show()">click here</button>
+      <h3 id="s_show"></h3>
+    </div><hr>
+
+     <!-- e8 -->
+    <div class="container">
+      <h1 class="text-danger">JavaScript can show  HTML elements.</h1>
+      <h3 id="s_view">people was independent</h3>
+    </div><hr>
+
+     <!-- e9 -->
+    <div class="container">
+      <h1 class="text-danger">Demo JavaScript in Head</h1>
+      <button type="button" onclick="myFunction()">Try it</button>
+      <h2 id="new">A Paragraph.</h2>
+      
+    </div><hr>
+
+     <!-- e10 -->
+    <div class="container">
+      <h1 class="text-danger">summation</h1>
+      <button type="button" onclick="showSum()">Try it</button>
+      <h2 id="sum"></h2>
+      
+    </div><hr>
+
+    <!-- e11 -->
+    <div class="container">
+      <h1 class="text-danger">subtraction</h1>
+      <button type="button" onclick="showSub()">Try it</button>
+      <h2 id="sub"></h2>
+      
+    </div><hr>
+
+    <!-- e12 -->
+    <div class="container">
+      <h1 class="text-danger">Click the button to print the current page.</h1>
+      <h3>The window.print() Method</h3>
+      <button onclick="window.print()">Print this page</button>
+  
+    </div><hr>
+
+    <!-- e13 -->
+    <div class="container">
+      <h1 class="text-danger">A <b>JavaScript program</b> is a list of <b>statements</b> to be executed by a computer.</h1>
+      <button type="button" onclick="state()">Try it</button>
+      <h3 id="state"></h3>
+  
+    </div><hr>
+
+    <!-- e14 -->
+    <div class="container">
+      <h1>Smile and Sad Button</h1>
+      <button type="button" onclick="sadOff()" class="btn btn-secondary">
+        Sad
+      </button>
+      <img id="felImg" src="images/sad.png" alt="" />
+      <button type="button" onclick="smileOn()" class="btn btn-danger">
+        Smile
+      </button>
+    </div>
+    <hr>
+    <!-- e15 -->
+    <div class="container">
+      <h1 class="text-danger">click here to show the result</h1>
+      <button type="button" onclick="getResult()">result</button>
+      <h3 id="res">result is-</h3>
+  
+    </div>
+    <hr>
+    <!--  e16 -->
+    <div class="container">
+      <h1 class="text-danger">click here to show the result</h1>
+      <button type="button" onclick="getResultt()">result</button>
+      <h3 id="ress">result is-</h3>
+  
+    </div> 
+    <hr>
+    <!--  e17 -->
+    <div class="container">
+      <h1 class="text-danger">click here to show the result</h1>
+      <button type="button" onclick="getResult2()">result</button>
+      <h3 id="res1">result is-</h3>
+  
+    </div> 
+    <hr>
+     <!--  e18 -->
+    <div class="container">
+      <h1 class="text-danger">click here to repeat the result</h1>
+      <button type="button" onclick="repeat()">result</button>
+      <h3 id="rep"></h3>
+  
+    </div> 
+    <hr>
+    <!--  e19 -->
+    <div class="container">
+      <h1 class="text-danger">click here to for the result</h1>
+      <button type="button" onclick="getValue()">result</button>
+      <h3 id="ans"></h3>
+  
+    </div> 
+    <hr>
+    <!--  e20 -->
+    <div class="container">
+      <h1 class="text-danger">click here to for the result</h1>
+      <button type="button" onclick="getValue1()">result</button>
+      <h3 id="ans1"></h3>
+  
+    </div> 
+    <hr>
+    <!--  e21 -->
+    <div class="container">
+      <h1 class="text-danger">click here to for the result</h1>
+      <button type="button" onclick="getValue2()">result</button>
+      <h3 id="ans2"></h3>
+  
+    </div> 
+    <hr>
+    <!--  e22 -->
+    <div class="container">
+      <h1 class="text-danger">click here to for the result</h1>
+      <button type="button" onclick="getValue3()">result</button>
+      <h3 id="ans3"></h3>
+  
+    </div> 
+    <hr>
+    <!--  e23 -->
+    <div class="container">
+      <h1 class="text-danger">class name</h1>
+      <button type="button" onclick="classNamee() ">click me</button>
+      <h3 class="c1" >lorem</h3>
+      <h3 class="c1" >lorem</h3>
+      <h3 class="c1" >lorem</h3>
+      <h3 class="c1" >lorem</h3>
+    </div> 
+    <hr>
+    <!--  e24 -->
+    <div class="container">
+      <h1 class="text-danger">class name</h1>
+      <button type="button" onclick="className1() ">click me</button>
+      <h3 class="c2" >lorem</h3>
+      <h3 class="c2" >lorem</h3>
+      <h3 class="c2" >lorem</h3>
+      <h3 class="c2" >lorem</h3>
+    </div> 
+    <hr>
+    <!--  e25 -->
+    <div class="container">
+      <h1 class="text-danger">class name</h1>
+      <button type="button" onclick="className2() ">click me</button>
+      <h3 class="c3 text-info" >lorem</h3>
+      <h3 class="c3 text-info" >lorem</h3>
+      <h3 class="c3 text-info" >lorem</h3>
+      <h3 class="c3 text-info" >lorem</h3>
+    </div> 
+    <hr>
+
+    <!-- e26 -->
+    <div class="container">
+       <h1 class="text-danger">finding tags</h1>
+       <button type="button" onclick="findingTags()">click me</button>
+    </div><hr>
+
+    <!--  e27 -->
+    <div class="container">
+      <h1 class="text-danger">click here to for the result</h1>
+      <button type="button" onclick="getKey()">result</button>
+      <h3 id="and"></h3>
+  
+    </div> 
+    <hr>
+    <!--  e28 -->
+    <div class="container">
+      <h1 class="text-danger">click here to for the result</h1>
+      <button type="button" onclick="getMinus()">result</button>
+      <h3 id="minus"></h3>
+  
+    </div> 
+    <hr>
+    <!--  e29 -->
+    <div class="container">
+      <h1 class="text-danger">When adding a string and a number, JavaScript will treat the number as a string.</h1>
+      <button type="button" onclick="textAdd()">result</button>
+      <h3 id="add"></h3>
+  
+    </div> 
+    <hr>
+    <!--  e30 -->
+    <div class="container">
+      <h1 class="text-danger">When adding a string and a number, JavaScript will treat the number as a string.</h1>
+      <button type="button" onclick="textAdd2()">result</button>
+      <h3 id="add2"></h3>
+  
+    </div> 
+    <hr>
+    <!--  e31 -->
+    <div class="container">
+      <h1 class="text-danger">Call a function</h1>
+      <button type="button" onclick="callFunction(4,3)">result</button>
+      <h3 id="fuc"></h3>
+  
+    </div> 
+    <hr>
+     <!--  e32 -->
+    <div class="container">
+      <h1 class="text-danger">Call a function</h1>
+      <button type="button" onclick="callFunction1(77)">result</button>
+      <h3 id="fuc1"></h3>
+  
+    </div> 
+    <hr>
+    <!-- e33 -->
+    <div class="container">
+      <h1>Smile and Sad Button</h1>
+      <button type="button" onclick="smileOnn()" class="btn btn-danger">
+        Smile
+      </button>
+      <img id="feltImg" src="images/smile.png" alt="" />
+       <button type="button" onclick="sadOfff()" class="btn btn-secondary">
+        Sad
+      </button>
+      
+    </div>
+    <hr>
+    <!--E34-->
+    <div class="container">
+      <h1> JavaScript Strings</h1>
+      <p>Strings are written with quotes. You can use single or double quotes:</p>
+      <p id="demo34"></p>
+    </div>
+    <hr>
+
+    <!-- e35 -->
+    <div class="container">
+    <h1> JavaScript Numbers</h1>
+    <h2>Numbers can be written with, or without decimals:</h2>
+    <h3 id="demo35"></h3>
+    <hr>
+    </div>
+    <!-- e36 -->
+    <div class="container">
+      <h1 class="text-danger">click the button to on/off bulb</h1>
+      <button type="button" class="btn btn-primary" onclick="bulbOnn()">bulbOn</button>
+      <button type="button" class="btn btn-primary" onclick="bulbOfff()">bulbOff</button>
+      <img id="img1" src="images/off.gif" alt="">
+    </div><hr>
+    <!-- 37 -->
+    <div class="container">
+      <h1 class="text-danger">object</h1>
+      <h2>Creating a Variable</h2>
+      <button type="button" class="btn btn-primary" onclick="object()">click</button>
+      <h3 id="object"></h3>
+    </div><hr>
+    <!-- 38 -->
+    <div class="container">
+      <h1 class="text-danger">JavaScript Object Properties</h1>
+      <h2>Access a Property with .</h2>
+      <button type="button" class="btn btn-primary" onclick="object1()">click</button>
+      <h3 id="object1"></h3>
+    </div><hr>
+
+    <!-- e39 -->
+    <div class="container">
+      <h1>My  JavaScript</h1>
+      <button type="button" class="btn btn-primary" onclick="viewTime()">show time</button>
+      <h3 id="stime"></h3>
+    </div>
+      <hr>
+
+      <!-- 40 -->
+    <div class="container">
+      <h1 class="text-danger">The length Property</h1>
+      <button type="button" class="btn btn-primary" onclick="stringg()">length</button>
+      <h3 id="str"></h3>
+    </div><hr>
+
+    <!-- 41 -->
+    <div class="container">
+      <h1 class="text-danger">The Array Property</h1>
+      <button type="button" class="btn btn-primary" onclick="array()">length</button>
+      <h3 id="arr"></h3>
+    </div><hr>
+
+    <!-- 42 -->
+    <div class="container">
+      <h1 class="text-danger">The Array Property</h1>
+      <button type="button" class="btn btn-primary" onclick="array1()">click to search</button>
+      <h3 id="arr1"></h3>
+    </div><hr>
+     <!-- 43 -->
+    <div class="container">
+      <h1 class="text-danger">The Array Property</h1>
+      <button type="button" class="btn btn-primary" onclick="array2()">click to search</button>
+      <h3 id="arr2"></h3>
+    </div><hr>
+
+    <!-- 44 -->
+    <div class="container">
+      <h1 class="text-danger">The Array Property</h1>
+      <button type="button" class="btn btn-primary" onclick="array3()">click to length</button>
+      <h3 id="arr3"></h3>
+    </div><hr>
+
+    <!-- 45 -->
+    <div class="container">
+      <h1 class="text-danger">The Array Property</h1>
+      <button type="button" class="btn btn-primary" onclick="array4()">click to length</button>
+      <h3 id="arr4"></h3>
+    </div><hr>
+
+    <!-- 46 -->
+    <div class="container">
+      <h1 class="text-danger">The Array Property</h1>
+      <button type="button" class="btn btn-primary" onclick="array5()">click to length</button>
+      <h3 id="arr5"></h3>
+    </div><hr>
+
+    <!-- 47 -->
+    <div class="container">
+      <h1 class="text-danger">The sort Property</h1>
+      <button type="button" class="btn btn-primary" onclick="array6()">click to length</button>
+      <h3 id="arr6"></h3>
+    </div><hr>
+
+    <!-- 48 -->
+    <div class="container">
+      <h1 class="text-danger">The value of pie</h1>
+      <button type="button" class="btn btn-primary" onclick="pie()">click for value</button>
+      <h3 id="demo48"></h3>
+    </div><hr>
+
+    <!-- 49 -->
+    <div class="container">
+      <h1 class="text-danger">The value of floor</h1>
+      <button type="button" class="btn btn-primary" onclick="floor()">click here</button>
+      <h3 id="demo50"></h3>
+    </div><hr>
+
+
+
+
+
+
+
+
+
+    <script src="jss/bootstrap.bundle.min.js"></script>
+    <script src="jss/script.js"></script>
+  </body>
+</html>
